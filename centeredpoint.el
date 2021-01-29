@@ -6,6 +6,6 @@
   )
 
 (defun line-change ()
-  (recenter)
-  )
-
+  (when (eq (get-buffer-window)
+            (selected-window))
+    (recenter)))
