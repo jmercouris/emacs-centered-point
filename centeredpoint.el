@@ -37,4 +37,6 @@
             (selected-window))
     (recenter)))
 
+(provide 'centeredpoint)
+
 ;;; centeredpoint.el ends here
