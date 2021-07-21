@@ -39,4 +39,6 @@
 
 (provide 'centeredpoint)
 
+;;; The expression `(centered-point-mode t)` will enable the mode globally
+
 ;;; centeredpoint.el ends here
